@@ -5,7 +5,7 @@ require 'dbcon.php';
 
 <!doctype html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +41,7 @@ require 'dbcon.php';
                             if(mysqli_num_rows($query_run) > 0)
                             {
                                 $student = mysqli_fetch_array($query_run);
-                                ?> 
+                                ?>
                                 <form action="code.php" method="POST">
                                     <input type="hidden" name="student_id" value="<?= $student['id']; ?>">
 

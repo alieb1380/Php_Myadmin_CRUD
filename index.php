@@ -78,7 +78,7 @@
                                                 <td><?= $student['phone']; ?></td>
                                                 <td><?= $student['course']; ?></td>
                                                 <td>
-                                             
+                                                    
                                                     <a href="student-view.php?id=<?php echo urlencode(encrypt($student['id'], $key, $iv)) ?>" class="btn btn-info btn-sm">View</a>
                                                     <a href="student-edit.php?id=" class="btn btn-success btn-sm">Edit</a>
                                                     <form action="code.php" method="POST" class="d-inline">
@@ -86,7 +86,7 @@
                                                     </form>
                                                 </td>
                                             </tr>
-                                          <?php 
+                                        <?php 
                                         }
                                     }
                                     else

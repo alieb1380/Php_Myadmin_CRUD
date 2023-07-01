@@ -50,6 +50,7 @@ if(isset($_POST['update_student']))
 
 }
 
+
 if(isset($_POST['save_student']))
 {
     $name = mysqli_real_escape_string($con, $_POST['name']);
@@ -73,4 +74,5 @@ if(isset($_POST['save_student']))
         exit(0);
     }
 }
+
 ?>

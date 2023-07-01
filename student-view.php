@@ -1,5 +1,4 @@
 <?php
-
 require 'dbcon.php';
 ?>
 
@@ -16,9 +15,7 @@ require 'dbcon.php';
     <title>Student View</title>
 </head>
 <body>
-  
     <div class="container mt-5">
-
 
         <div class="row">
             <div class="col-md-12">
